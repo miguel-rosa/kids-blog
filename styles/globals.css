@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: "Montserrat", "Paytone One", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -13,4 +13,18 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h2, h3, h4, h5, h6 {
+  font-size: 200%
+}
+@media (max-width:1024px) {
+h2, h3, h4, h5, h6, p {
+  padding: 0 20px
+}
+}
+
+p, ol {
+  font-size: 22px;
+  font-family: "nunito sans";
 }
